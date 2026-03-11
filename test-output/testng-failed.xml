@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="First.Project.paralleltest">
+      <class name="First.Project.FacebookHome">
         <methods>
-          <include name="tearDown"/>
-          <include name="testMethod"/>
+          <include name="launchFacebook"/>
         </methods>
-      </class> <!-- First.Project.paralleltest -->
+      </class> <!-- First.Project.FacebookHome -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
